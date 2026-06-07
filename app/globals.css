@@ -1,0 +1,170 @@
+@import "tailwindcss";
+
+/* ------------------------------------------------------------------ */
+/*  Brand theme — colours sampled directly from logo.png for fidelity  */
+/*    blue petals  #0497f3 · red petals #cc040c · wordmark #404040     */
+/* ------------------------------------------------------------------ */
+@theme {
+  --color-brand-blue: #0497f3;
+  --color-brand-blue-deep: #0a6fce;
+  --color-brand-red: #cc040c;
+  --color-brand-red-deep: #a30309;
+
+  --color-ink: #262422;
+  --color-ink-soft: #5c574f;
+  --color-line: #e7e2d9;
+  --color-cream: #f7f4ee;
+  --color-cream-deep: #efe9df;
+  --color-paper: #ffffff;
+
+  --font-display: var(--font-cormorant), ui-serif, Georgia, "Times New Roman",
+    serif;
+  --font-sans: var(--font-nunito-sans), ui-sans-serif, system-ui, -apple-system,
+    sans-serif;
+
+  --shadow-soft: 0 18px 50px -20px rgba(38, 36, 34, 0.25);
+  --shadow-lift: 0 28px 70px -28px rgba(38, 36, 34, 0.4);
+}
+
+/* ------------------------------------------------------------------ */
+/*  Base                                                               */
+/* ------------------------------------------------------------------ */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    background-color: var(--color-cream);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    font-weight: 500;
+    letter-spacing: -0.01em;
+  }
+  ::selection {
+    background: var(--color-brand-blue);
+    color: #fff;
+  }
+  /* Keep focus rings tasteful but visible for keyboard users. */
+  :focus-visible {
+    outline: 2px solid var(--color-brand-blue);
+    outline-offset: 2px;
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/*  Reusable brand utilities                                          */
+/* ------------------------------------------------------------------ */
+@layer utilities {
+  .text-gradient {
+    background-image: linear-gradient(
+      105deg,
+      var(--color-brand-blue) 0%,
+      var(--color-brand-red) 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  /* Brighter, higher-contrast variant for use over dark imagery (e.g. the hero).
+     Stays in the blue→red brand family but legible on a darkened photo. */
+  .text-gradient-hero {
+    background-image: linear-gradient(100deg, #5cc0ff 0%, #ff6a6f 50%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .bg-gradient-brand {
+    background-image: linear-gradient(
+      105deg,
+      var(--color-brand-blue) 0%,
+      var(--color-brand-red) 100%
+    );
+  }
+  .text-balance {
+    text-wrap: balance;
+  }
+  .text-pretty {
+    text-wrap: pretty;
+  }
+  /* Tracked, small-caps kicker label used across sections. */
+  .kicker {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* The signature double hairline (blue over red) lifted from the old brand. */
+.hairline {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 3px;
+  width: 3.25rem;
+}
+.hairline::before,
+.hairline::after {
+  content: "";
+  height: 2px;
+  width: 100%;
+  border-radius: 2px;
+}
+.hairline::before {
+  background: var(--color-brand-blue);
+}
+.hairline::after {
+  background: var(--color-brand-red);
+  width: 60%;
+}
+.hairline-center {
+  align-items: center;
+}
+.hairline-center::after {
+  align-self: center;
+}
+
+/* Slow ken-burns drift for full-bleed hero imagery. */
+@keyframes kenburns {
+  0% {
+    transform: scale(1.06) translate3d(0, 0, 0);
+  }
+  100% {
+    transform: scale(1.16) translate3d(-1.5%, -1.5%, 0);
+  }
+}
+.animate-kenburns {
+  animation: kenburns 14s ease-out forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .animate-kenburns {
+    animation: none;
+  }
+}
+
+/* When JavaScript is unavailable, reveal-on-scroll content stays fully visible. */
+@media (scripting: none) {
+  [data-reveal] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}

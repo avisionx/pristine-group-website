@@ -1,0 +1,271 @@
+{
+  "meta": {
+    "title": "Gupta's Pristine Group — Redefining Real Estate",
+    "description": "One of the foundational builders of the Delhi-NCR region. Four generations of trust across residential, commercial, retail, warehousing, industrial and luxury farmhouses — since 1973."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "news": "News",
+    "careers": "Careers",
+    "contact": "Contact",
+    "menu": "Menu",
+    "close": "Close"
+  },
+  "common": {
+    "knowMore": "Know More",
+    "readMore": "Read More",
+    "viewProject": "View Segment",
+    "exploreProjects": "Explore Projects",
+    "getInTouch": "Get in Touch",
+    "scroll": "Scroll",
+    "downloadBrochure": "Download Brochure",
+    "send": "Send Message",
+    "sending": "Sending…",
+    "established": "Established 1973",
+    "viewGallery": "View Gallery"
+  },
+  "hero": {
+    "kicker": "Gupta's Pristine Group",
+    "titleLine1": "Redefining",
+    "titleLine2": "Real Estate",
+    "subtitle": "Four generations of building landmarks across Delhi-NCR — homes, high streets and horizons, crafted since 1973.",
+    "ctaPrimary": "Explore Our Work",
+    "ctaSecondary": "Our Story"
+  },
+  "home": {
+    "aboutKicker": "About",
+    "aboutTitle": "A legacy built on trust",
+    "aboutParagraphs": [
+      "Real Estate pioneers Late Shri Surender Kumar Gupta and Shri Rajendra Kumar Gupta, under the guidance of their father and the company's north star, Late Shri Lala Ram Bhaj Gupta, laid the foundation of Pristine Group in 1973. Today, the future generations of the Gupta Family are at the helm — scaling unprecedented heights and redefining real estate as we know it.",
+      "As one of the foundational builders of the Delhi-NCR region, the group has successfully developed a bouquet of real estate products across residential, commercial, retail, warehousing, industrial and luxury farmhouses, with roots and operations expanding into Punjab and Haryana."
+    ],
+    "stats": [
+      { "suffix": "+", "label": "Years of Legacy" },
+      { "value": "10", "suffix": "L+", "label": "Sq. Ft. Developed" },
+      { "value": "100", "suffix": "+", "label": "Projects Delivered" }
+    ],
+    "projectsKicker": "What We Build",
+    "projectsTitle": "Six segments, one standard of excellence",
+    "projectsSubtitle": "From gated villa complexes to landmark malls and the largest cold storage in Delhi-NCR — explore the breadth of the Pristine portfolio.",
+    "newsKicker": "Newsroom",
+    "newsTitle": "Real Estate News",
+    "newsSubtitle": "Curated headlines from across the Indian real estate landscape.",
+    "ctaTitle": "Let's build something enduring",
+    "ctaSubtitle": "Whether you're looking for a home, a storefront, or a strategic partner — our family would be glad to hear from you.",
+    "ctaButton": "Start a Conversation"
+  },
+  "about": {
+    "kicker": "About",
+    "title": "Redefining Real Estate",
+    "lead": "A revered name and an established brand in the Indian real estate market.",
+    "paragraphs": [
+      "Real Estate pioneers Late Shri Surender Kumar Gupta and Shri Rajendra Kumar Gupta, under the guidance of their father and the company's north star, Late Shri Lala Ram Bhaj Gupta, laid the foundation of Pristine Group in 1973. Building on their legacy and following in their footprints, today the future generations of the Gupta Family are at the helm of the company, scaling unprecedented heights and redefining real estate as we know it.",
+      "As one of the foundational builders of the Delhi-NCR region, the group offers and has successfully developed a bouquet of real estate products across various segments: Residential, Commercial, Retail, Warehousing, Industrial and Luxury Farmhouses. The group also has roots and operations expanding into Punjab and Haryana.",
+      "As a fourth-generation business house, we believe in keeping true to our roots. Family values and traditions are carefully preserved in our company culture. At the same time, the group has endeavoured to keep up with time, realising the dynamic and ever-changing nature of the real estate sector and the Indian economy at large. Constant innovation, perseverance, and a drive to always be one step ahead of the market has fuelled the group's growth and evolution through time.",
+      "With our team of seasoned industry professionals with decades of experience and the fresh ideas of incoming generations, we at Pristine — along with our proficient family of employees and stakeholders — are optimistic of the future.",
+      "The client's needs and wants stand paramount at Pristine. Delivering the highest quality of real estate is not just a legacy but a responsibility of the company. Our enduring relationships with customers and associates, as well as our tall-standing real estate projects, are testament to the group's promise and ethos.",
+      "Today, Gupta's Pristine has carried on the legacy of satisfied clients and exceptional quality products — winning the trust, hearts and smiles of all our stakeholders while developing our most prized asset: our goodwill."
+    ],
+    "valuesKicker": "Our Ethos",
+    "valuesTitle": "What we stand for",
+    "values": [
+      {
+        "title": "Four Generations of Trust",
+        "body": "A family business since 1973, with values and traditions carefully preserved in our company culture across every generation."
+      },
+      {
+        "title": "Uncompromising Quality",
+        "body": "Delivering the highest quality of real estate is not just a legacy but a responsibility — reflected in every tall-standing project we build."
+      },
+      {
+        "title": "Always One Step Ahead",
+        "body": "Constant innovation and perseverance have fuelled our growth through the ever-changing nature of the Indian real estate market."
+      },
+      {
+        "title": "Relationships That Endure",
+        "body": "Our most prized asset is our goodwill — built on enduring relationships with customers, associates and stakeholders alike."
+      }
+    ],
+    "heritageLabel": "The original mark, carried forward."
+  },
+  "projects": {
+    "indexKicker": "Our Portfolio",
+    "indexTitle": "Projects",
+    "indexSubtitle": "A diversified portfolio developed across six decades and six segments of the Indian real estate market.",
+    "featuredLabel": "Featured Projects",
+    "overviewLabel": "Overview",
+    "locationsLabel": "Where We've Built",
+    "residential": {
+      "title": "Residential",
+      "tagline": "Homes that hold a family's story",
+      "intro": [
+        "The residential sector, along with the commercial and retail sectors, has always been at the core of operations at Pristine. The group has ventured into all possible segments of the residential market since its inception and continues to diversify its portfolio.",
+        "Luxury Bungalows, Gated Villa Complexes and Affordable Housing currently form the group's residential portfolio. The group has successfully delivered projects in neighbourhoods such as New Friends Colony, Greater Kailash, South Extension, Kailash Colony, Chirag Enclave, Kalkaji, Malviya Nagar and Chattarpur, to name a few.",
+        "Luxury Farmhouses — a market the company has pioneered and is considered a market-mover in since its inception — are an extension of its residential portfolio."
+      ],
+      "sections": [
+        {
+          "title": "Affordable Housing",
+          "body": [
+            "Post the Covid-19 pandemic, the group further expanded its portfolio to include affordable flats and builder floors in Faridabad, where it is already prominently established across generations. Today, the company boasts a sizable inventory in this fast-moving segment."
+          ]
+        }
+      ],
+      "locations": ["New Friends Colony", "Greater Kailash", "South Extension", "Kailash Colony", "Chirag Enclave", "Kalkaji", "Malviya Nagar", "Chattarpur", "Faridabad"]
+    },
+    "commercial": {
+      "title": "Commercial",
+      "tagline": "Landmarks that anchor a neighbourhood",
+      "intro": [
+        "Pristine Group has developed and delivered some of the most significant commercial buildings in New Delhi. The group has ventured into this segment since its inception and delivered landmark projects all around the national capital.",
+        "Projects have been delivered in densely populated commercial hubs such as Green Park, Kalkaji (multiple projects), Rajouri Garden, East of Kailash, Lajpat Nagar, Mayur Vihar, Shreshtha Vihar, Vikaspuri (multiple projects), Mayapuri, Paschim Vihar, Paschim Puri, Pitampura, Azadpur, Ashok Vihar, Shahzadabad and Malviya Nagar.",
+        "All commercial projects of Gupta's Pristine enjoy 100% occupancy today. The group boasts one of the largest commercial real estate portfolios in Delhi-NCR and actively trades in this segment even today."
+      ],
+      "sections": [],
+      "locations": ["Green Park", "Kalkaji", "Rajouri Garden", "East of Kailash", "Lajpat Nagar", "Mayur Vihar", "Vikaspuri", "Pitampura", "Ashok Vihar", "Malviya Nagar"]
+    },
+    "retail": {
+      "title": "Retail",
+      "tagline": "Shopping, food and entertainment under one roof",
+      "intro": [
+        "Taking advantage of the economic boom and a sudden surge in demand for organised retail hubs in North India — standing true to its claim of dynamism — the Pristine Group successfully developed and delivered two landmark shopping malls in Faridabad and Khanna, Punjab."
+      ],
+      "sections": [
+        {
+          "title": "Mall & Multiplex at Faridabad",
+          "body": [
+            "Pristine Mall Faridabad is located in Sector-31 and surrounded by a great catchment, with over one million families residing within a 2 km radius. It is strategically located close to schools and colleges, open on all sides with three-side road connectivity.",
+            "Towering across 7 floors and covering 80,000 sq. ft. super area, the mall is fully air-conditioned and equipped with escalators, elevators and full power backup, along with a 600+ car park and a 3-screen multiplex.",
+            "It offers a hyper shopping store like Vishal Mega Mart mixed with great entertainment at our in-house Pristine Cinemas and kids' play zone."
+          ],
+          "brochure": "/retail/Pristine Mall & Multiplex Faridabad.pdf"
+        },
+        {
+          "title": "Mall & Multiplex at Khanna, Punjab",
+          "body": [
+            "Pristine City Centre Khanna, with great design aesthetics, offers value shopping, food and entertainment all under one roof.",
+            "Located a 40-minute drive from Ludhiana and a 60-minute drive from Chandigarh, the mall sits right on National Highway-1, which witnesses more than 1 million non-commercial vehicles plying.",
+            "A sanctioned and approved project with over 2,15,000 sq. ft. covered area, it is fully equipped with state-of-the-art facilities and ample parking for over 250 cars. The mall is fully air-conditioned with escalators, elevators, full power backup and a 2-screen multiplex."
+          ],
+          "brochure": "/retail/Pristine City Centre Khanna.pdf"
+        }
+      ],
+      "locations": ["Faridabad, Haryana", "Khanna, Punjab"]
+    },
+    "luxury_farmhouses": {
+      "title": "Luxury Farmhouses",
+      "tagline": "The most picturesque addresses in South Delhi",
+      "intro": [
+        "Considered to be one of the most substantial firms in this space, Gupta's Pristine has been one of the pioneers in developing the luxury farmhouse market in Delhi-NCR. Today a thriving sector of the real estate industry, the group's exposure is concentrated in the South Delhi region.",
+        "Since inception, Pristine has successfully developed and delivered multiple projects in some of the most prime residential areas of Delhi — such as Chattarpur (Main Road), Vasant Kunj, Dera Mandi, Fatehpur Beri, Radhey Mohan Drive, Gadaipur, Asola and various other areas in Mehrauli.",
+        "Projects delivered by Gupta's Pristine have always stood out as the most picturesque and magnificent developments in the market. The finest quality of construction, fully equipped with state-of-the-art facilities, coupled with scenic landscaping and grand elevations — these projects serve as landmarks in the farmhouse sector, setting new standards and paving the way for innovation. Pristine Group continues to actively engage in this sector."
+      ],
+      "sections": [],
+      "locations": ["Chattarpur Main Road", "Vasant Kunj", "Dera Mandi", "Fatehpur Beri", "Radhey Mohan Drive", "Gadaipur", "Asola", "Mehrauli"]
+    },
+    "warehousing": {
+      "title": "Warehousing",
+      "tagline": "Cold storage at the scale of a metropolis",
+      "intro": [
+        "Towering across 9 floors, Pristine Group has created a state-of-the-art cold store warehouse for perishable food and fruits at the Azadpur Mandi in North Delhi.",
+        "Modern warehousing is a crucial link between manufacturer and retailer, and there is massive demand for cold storage in Northern India due to high temperature and humid conditions for most of the year. Pristine Group venturing into this business has proved to be highly profitable in terms of its growth since development.",
+        "The Delhi-Azadpur cold storage developed by Pristine Group persists as one of the largest cold store warehouses in Delhi-NCR."
+      ],
+      "sections": [],
+      "locations": ["Azadpur Mandi, North Delhi"]
+    },
+    "industrial": {
+      "title": "Industrial",
+      "tagline": "Sheds and factories that power Faridabad",
+      "intro": [
+        "Pristine Group has successfully developed and delivered numerous industrial projects in the form of industrial sheds and factory buildings of various sizes in Faridabad — concentrated in areas such as DLF Industrial Estate — to cater to both purchase and lease requirements of our clients. The company actively trades in this segment."
+      ],
+      "sections": [],
+      "locations": ["DLF Industrial Estate, Faridabad"]
+    }
+  },
+  "news": {
+    "kicker": "Newsroom",
+    "title": "Real Estate News",
+    "subtitle": "Curated headlines from across the Indian real estate landscape, refreshed regularly.",
+    "lastUpdated": "Last updated",
+    "hoursAgo": "hrs ago",
+    "loading": "Fetching the latest news…",
+    "continueReading": "Continue Reading",
+    "unavailable": "News is taking a moment to load. Please check back shortly."
+  },
+  "careers": {
+    "kicker": "Careers",
+    "title": "Redefine your career with us",
+    "subtitle": "We are always looking for seasoned professionals and fresh ideas to join our family. Tell us where you'd fit best.",
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "Your full legal name",
+      "email": "Email Address",
+      "emailPlaceholder": "you@example.com",
+      "contact": "Contact Number",
+      "contactPlaceholder": "+91 ",
+      "designation": "Designation",
+      "designationPlaceholder": "Choose or type a role",
+      "employer": "Current Employer",
+      "employerPlaceholder": "Where you work now (optional)",
+      "linkedin": "LinkedIn Profile",
+      "linkedinPlaceholder": "Link to your profile (optional)",
+      "resume": "Link to CV / Resume",
+      "resumePlaceholder": "Paste a shareable Drive link",
+      "submit": "Submit Application",
+      "success": "Application sent! We'll be in touch.",
+      "required": "Please fill in all required fields."
+    },
+    "designations": [
+      "Marketing & Sales",
+      "Operations",
+      "Trainings",
+      "PR & Liaison",
+      "Architecture",
+      "Designing & Concept Development",
+      "Accounts & Finance",
+      "Customer Service"
+    ]
+  },
+  "contact": {
+    "kicker": "Contact",
+    "title": "Get in touch with us",
+    "subtitle": "Our family would be glad to hear from you. Reach out and we'll respond as soon as we can.",
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "Your full name",
+      "email": "Email Address",
+      "emailPlaceholder": "you@example.com",
+      "contact": "Contact Number",
+      "contactPlaceholder": "+91 ",
+      "message": "Message",
+      "messagePlaceholder": "How can we help?",
+      "submit": "Send Message",
+      "success": "Message sent! We'll be in touch.",
+      "required": "Please fill in all required fields."
+    },
+    "info": {
+      "officeLabel": "Corporate Office",
+      "phoneLabel": "Call Us",
+      "emailLabel": "Email Us",
+      "hours": "Mon to Fri · 11 AM to 5 PM"
+    }
+  },
+  "footer": {
+    "tagline": "Redefining Real Estate",
+    "blurb": "One of the foundational builders of Delhi-NCR — building homes, landmarks and trust since 1973.",
+    "contactHeading": "Contact",
+    "quickLinksHeading": "Quick Links",
+    "projectsHeading": "Projects",
+    "rights": "All rights reserved.",
+    "developedBy": "Developed with ❤️ by"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "subtitle": "Looks like you've wandered off the blueprint.",
+    "back": "Back to Home"
+  }
+}
