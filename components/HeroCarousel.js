@@ -69,7 +69,7 @@ export default function HeroCarousel({ lang, dict }) {
           </span>
           <h1 className="mt-6 font-display text-[3.4rem] font-medium leading-[1.0] text-white [text-shadow:0_2px_28px_rgba(0,0,0,0.5)] sm:text-7xl lg:text-[6.2rem]">
             {dict.hero.titleLine1}
-            <span className="mt-1 block italic text-gradient-hero">{dict.hero.titleLine2}</span>
+            <span className="pt-3 block italic text-gradient-hero">{dict.hero.titleLine2}</span>
           </h1>
           <p className="mt-7 max-w-xl text-pretty text-base leading-relaxed text-white/80 sm:text-lg">
             {dict.hero.subtitle}
