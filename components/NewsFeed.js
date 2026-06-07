@@ -54,7 +54,7 @@ export default function NewsFeed({ dict, endpoint = "full", limit }) {
   return (
     <div>
       {hoursAgo !== null ? (
-        <p className="mb-8 inline-flex items-center gap-2 text-xs uppercase tracking-[0.2em] text-ink-soft">
+        <p className="mb-8 inline-flex items-center gap-2 text-xs tracking-[0.2em] text-ink-soft uppercase">
           <Clock className="h-4 w-4 text-brand-blue" />
           {dict.lastUpdated} {hoursAgo} {dict.hoursAgo}
         </p>

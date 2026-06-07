@@ -29,7 +29,7 @@ export default async function AboutPage({ params }) {
       <section className="mx-auto max-w-7xl px-5 py-20 sm:px-8 lg:py-28">
         <div className="grid gap-12 lg:grid-cols-12 lg:gap-16">
           <Reveal className="lg:col-span-7">
-            <div className="space-y-5 text-pretty text-[1.02rem] leading-[1.85] text-ink-soft">
+            <div className="space-y-5 text-[1.02rem] leading-[1.85] text-pretty text-ink-soft">
               <p className="text-ink! first-letter:float-left first-letter:mr-3 first-letter:font-display first-letter:text-6xl first-letter:leading-[0.8] first-letter:text-brand-red">
                 {paras[0]}
               </p>
@@ -49,9 +49,9 @@ export default async function AboutPage({ params }) {
                     className="aspect-[4/5] w-full object-cover"
                   />
                 </div>
-                <figcaption className="mt-5 flex items-center gap-4 p-4 rounded-2xl border border-line">
+                <figcaption className="mt-5 flex items-center gap-4 rounded-2xl border border-line p-4">
                   <img src={logos.heritage} alt="The original Gupta's mark" className="h-16 w-auto rounded" />
-                  <span className="text-sm italic text-ink-soft">{dict.about.heritageLabel}</span>
+                  <span className="text-sm text-ink-soft italic">{dict.about.heritageLabel}</span>
                 </figcaption>
               </figure>
             </Reveal>
@@ -73,7 +73,7 @@ export default async function AboutPage({ params }) {
             {dict.about.values.map((v, i) => (
               <Reveal key={v.title} delay={(i % 4) * 0.08}>
                 <div className="flex h-full flex-col rounded-2xl border border-line bg-paper p-7 transition-shadow duration-300 hover:shadow-[var(--shadow-soft)]">
-                  <span className="font-display text-3xl text-gradient">
+                  <span className="text-gradient font-display text-3xl">
                     {String(i + 1).padStart(2, "0")}
                   </span>
                   <span className="hairline mt-4 block" />

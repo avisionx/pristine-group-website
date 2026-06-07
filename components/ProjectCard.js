@@ -25,12 +25,12 @@ export default function ProjectCard({ lang, project, title, tagline, index, view
       <div className="absolute inset-0 bg-linear-to-t from-ink via-ink/25 to-transparent opacity-90" />
 
       {/* Index */}
-      <span className="absolute right-5 top-4 text-sm tabular-nums text-white/60">
+      <span className="absolute top-4 right-5 text-sm text-white/60 tabular-nums">
         {String(index + 1).padStart(2, "0")}
       </span>
 
       {/* Icon chip */}
-      <span className="absolute left-5 top-5 grid h-11 w-11 place-items-center rounded-full border border-white/25 bg-white/10 text-white backdrop-blur-sm transition-colors group-hover:bg-white group-hover:text-ink">
+      <span className="absolute top-5 left-5 grid h-11 w-11 place-items-center rounded-full border border-white/25 bg-white/10 text-white backdrop-blur-sm transition-colors group-hover:bg-white group-hover:text-ink">
         <Icon className="h-5 w-5" />
       </span>
 

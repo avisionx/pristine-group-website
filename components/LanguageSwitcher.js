@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Globe, Check, ChevronDown } from "lucide-react";
+import { Check, ChevronDown, Languages } from "lucide-react";
 import clsx from "clsx";
 import { i18n } from "@/lib/i18n-config";
 
@@ -35,7 +35,7 @@ export default function LanguageSwitcher({ lang, light = false }) {
           light ? "text-white/90 hover:text-white" : "text-ink hover:text-brand-blue",
         )}
       >
-        <Globe className="h-4 w-4" />
+        <Languages className="h-4 w-4" />
         <span className="uppercase">{lang}</span>
         <ChevronDown className={clsx("h-3.5 w-3.5 transition-transform", open && "rotate-180")} />
       </button>

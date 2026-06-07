@@ -113,7 +113,7 @@ function InfoRow({ icon: Icon, title, children }) {
         <Icon className="h-5 w-5" />
       </span>
       <div>
-        <p className="text-xs uppercase tracking-[0.18em] text-ink">{title}</p>
+        <p className="text-xs tracking-[0.18em] text-ink uppercase">{title}</p>
         <div className="mt-1.5">{children}</div>
       </div>
     </li>

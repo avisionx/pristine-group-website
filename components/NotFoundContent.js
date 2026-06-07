@@ -33,7 +33,7 @@ export default function NotFoundContent({ strings, defaultLocale, locales }) {
         heritageClassName="h-12 w-auto"
         dividerClassName="h-9"
       />
-      <p className="mt-12 font-display text-[7rem] leading-none text-gradient">404</p>
+      <p className="text-gradient mt-12 font-display text-[7rem] leading-none">404</p>
       <h1 className="mt-1 font-display text-3xl text-ink">{t.title}</h1>
       <p className="mt-3 max-w-sm text-ink-soft">{t.subtitle}</p>
       <Link

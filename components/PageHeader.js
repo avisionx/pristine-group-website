@@ -13,13 +13,13 @@ export default function PageHeader({ kicker, title, subtitle, image, align = "le
         <img
           src={image}
           alt=""
-          className="absolute inset-0 h-full w-full object-cover opacity-70 animate-kenburns"
+          className="animate-kenburns absolute inset-0 h-full w-full object-cover opacity-70"
           fetchPriority="high"
         />
         <div className="absolute inset-0 bg-linear-to-t from-ink via-ink/40 to-ink/30" />
         <div
           className={clsx(
-            "relative z-10 mx-auto w-full max-w-7xl px-5 pb-14 pt-36 sm:px-8 sm:pt-44",
+            "relative z-10 mx-auto w-full max-w-7xl px-5 pt-36 pb-14 sm:px-8 sm:pt-44",
             center && "text-center",
           )}
         >
@@ -32,7 +32,7 @@ export default function PageHeader({ kicker, title, subtitle, image, align = "le
             {title}
           </h1>
           {subtitle ? (
-            <p className="mt-5 max-w-2xl text-pretty text-lg italic text-white/80">{subtitle}</p>
+            <p className="mt-5 max-w-2xl text-lg text-pretty text-white/80 italic">{subtitle}</p>
           ) : null}
         </div>
       </header>
@@ -43,7 +43,7 @@ export default function PageHeader({ kicker, title, subtitle, image, align = "le
     <header className="bg-cream">
       <div
         className={clsx(
-          "mx-auto max-w-7xl px-5 pb-12 pt-32 sm:px-8 sm:pt-44",
+          "mx-auto max-w-7xl px-5 pt-32 pb-12 sm:px-8 sm:pt-44",
           center && "text-center",
         )}
       >
@@ -58,7 +58,7 @@ export default function PageHeader({ kicker, title, subtitle, image, align = "le
         {subtitle ? (
           <p
             className={clsx(
-              "mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-ink-soft",
+              "mt-6 max-w-2xl text-lg leading-relaxed text-pretty text-ink-soft",
               center && "mx-auto",
             )}
           >

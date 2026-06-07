@@ -44,7 +44,7 @@ export default async function HomePage({ params }) {
         <div className="grid items-center gap-12 lg:grid-cols-12 lg:gap-16">
           <Reveal className="lg:col-span-6">
             <SectionHeading kicker={dict.home.aboutKicker} title={dict.home.aboutTitle} />
-            <div className="mt-7 space-y-5 text-pretty leading-relaxed text-ink-soft">
+            <div className="mt-7 space-y-5 leading-relaxed text-pretty text-ink-soft">
               {dict.home.aboutParagraphs.map((p, i) => (
                 <p key={i}>{p}</p>
               ))}
@@ -70,8 +70,8 @@ export default async function HomePage({ params }) {
                 />
               </div>
               <div className="absolute -bottom-6 -left-4 rounded-2xl bg-ink px-6 py-5 text-cream shadow-[var(--shadow-soft)] sm:-left-6">
-                <p className="font-display text-4xl leading-none text-gradient">{FOUNDED_YEAR}</p>
-                <p className="mt-1 text-xs uppercase tracking-[0.2em] text-cream/70">
+                <p className="text-gradient font-display text-4xl leading-none">{FOUNDED_YEAR}</p>
+                <p className="mt-1 text-xs tracking-[0.2em] text-cream/70 uppercase">
                   {dict.common.established}
                 </p>
               </div>
@@ -88,7 +88,7 @@ export default async function HomePage({ params }) {
                   <Counter to={s.to} />
                   <span className="text-gradient">{s.suffix}</span>
                 </p>
-                <p className="mt-2 text-sm uppercase tracking-[0.15em] text-ink-soft">{s.label}</p>
+                <p className="mt-2 text-sm tracking-[0.15em] text-ink-soft uppercase">{s.label}</p>
               </div>
             ))}
           </div>
@@ -161,7 +161,7 @@ export default async function HomePage({ params }) {
             <h2 className="font-display text-4xl text-white sm:text-5xl lg:text-6xl">
               {dict.home.ctaTitle}
             </h2>
-            <p className="mx-auto mt-5 max-w-xl text-pretty leading-relaxed text-white/75">
+            <p className="mx-auto mt-5 max-w-xl leading-relaxed text-pretty text-white/75">
               {dict.home.ctaSubtitle}
             </p>
             <Link

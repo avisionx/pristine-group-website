@@ -63,7 +63,7 @@ export default async function ProjectDetailPage({ params }) {
         <div className="grid gap-12 lg:grid-cols-12 lg:gap-16">
           <Reveal className="lg:col-span-8">
             <span className="kicker text-brand-red">{dict.projects.overviewLabel}</span>
-            <div className="mt-6 space-y-5 text-pretty text-lg leading-[1.8] text-ink-soft">
+            <div className="mt-6 space-y-5 text-lg leading-[1.8] text-pretty text-ink-soft">
               {copy.intro.map((p, i) => (
                 <p key={i} className={i === 0 ? "text-ink!" : undefined}>
                   {p}

@@ -56,7 +56,7 @@ export default function Navbar({ lang, dict, projects }) {
         className={clsx(
           "fixed inset-x-0 top-0 z-50 transition-all duration-500",
           solid
-            ? "border-b border-line/80 bg-cream/90 backdrop-blur-md shadow-[0_4px_30px_-12px_rgba(38,36,34,0.25)]"
+            ? "border-b border-line/80 bg-cream/90 shadow-[0_4px_30px_-12px_rgba(38,36,34,0.25)] backdrop-blur-md"
             : "border-b border-transparent bg-transparent",
         )}
       >
@@ -87,7 +87,7 @@ export default function Navbar({ lang, dict, projects }) {
                 {dict.nav.projects}
                 <ChevronDown className="h-3.5 w-3.5 transition-transform group-hover:rotate-180" />
               </Link>
-              <div className="invisible absolute left-1/2 top-full z-50 w-60 -translate-x-1/2 pt-3 opacity-0 transition-all duration-200 group-hover:visible group-hover:opacity-100">
+              <div className="invisible absolute top-full left-1/2 z-50 w-60 -translate-x-1/2 pt-3 opacity-0 transition-all duration-200 group-hover:visible group-hover:opacity-100">
                 <ul className="overflow-hidden rounded-2xl border border-line bg-paper p-2 shadow-[var(--shadow-soft)]">
                   {projects.map((p) => (
                     <li key={p.slug}>
@@ -125,18 +125,21 @@ export default function Navbar({ lang, dict, projects }) {
             </div>
           </div>
 
-          {/* Mobile toggle */}
-          <button
-            type="button"
-            onClick={() => setOpen(true)}
-            aria-label={dict.nav.menu}
-            className={clsx(
-              "lg:hidden transition-colors",
-              onDark ? "text-white" : "text-ink",
-            )}
-          >
-            <Menu className="h-7 w-7" />
-          </button>
+          {/* Mobile controls */}
+          <div className="flex items-center gap-4 lg:hidden">
+            <LanguageSwitcher lang={lang} light={onDark} />
+            <button
+              type="button"
+              onClick={() => setOpen(true)}
+              aria-label={dict.nav.menu}
+              className={clsx(
+                "transition-colors",
+                onDark ? "text-white" : "text-ink",
+              )}
+            >
+              <Menu className="h-7 w-7" />
+            </button>
+          </div>
         </nav>
       </header>
 
@@ -159,13 +162,16 @@ export default function Navbar({ lang, dict, projects }) {
                   heritageClassName="h-10 w-auto"
                   dividerClassName="h-8"
                 />
-                <button type="button" onClick={() => setOpen(false)} aria-label={dict.nav.close}>
-                  <X className="h-7 w-7 text-ink" />
-                </button>
+                <div className="flex items-center gap-4">
+                  <LanguageSwitcher lang={lang} />
+                  <button type="button" onClick={() => setOpen(false)} aria-label={dict.nav.close}>
+                    <X className="h-7 w-7 text-ink" />
+                  </button>
+                </div>
               </div>
 
               <motion.ul
-                className="mt-8 flex flex-1 flex-col gap-0.5 overflow-y-auto overscroll-contain pb-6 no-scrollbar"
+                className="no-scrollbar mt-8 flex flex-1 flex-col gap-0.5 overflow-y-auto overscroll-contain pb-6"
                 initial="hidden"
                 animate="visible"
                 variants={{ visible: { transition: { staggerChildren: 0.045, delayChildren: 0.08 } } }}
@@ -188,10 +194,6 @@ export default function Navbar({ lang, dict, projects }) {
                 <MobileItem href={href(lang, "/careers")} label={dict.nav.careers} />
                 <MobileItem href={href(lang, "/contact")} label={dict.nav.contact} />
               </motion.ul>
-
-              <div className="mt-auto border-t border-line pt-5">
-                <LanguageSwitcher lang={lang} />
-              </div>
             </div>
           </motion.div>
         ) : null}

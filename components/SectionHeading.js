@@ -20,7 +20,7 @@ export default function SectionHeading({
       {kicker ? <Kicker light={light}>{kicker}</Kicker> : null}
       <Tag
         className={clsx(
-          "mt-5 text-pretty text-[2.1rem] leading-[1.08] sm:text-5xl lg:text-[3.3rem]",
+          "mt-5 text-[2.1rem] leading-[1.08] text-pretty sm:text-5xl lg:text-[3.3rem]",
           light ? "text-white" : "text-ink",
           titleClassName,
         )}
@@ -30,7 +30,7 @@ export default function SectionHeading({
       {subtitle ? (
         <p
           className={clsx(
-            "mt-5 text-pretty text-base leading-relaxed sm:text-lg",
+            "mt-5 text-base leading-relaxed text-pretty sm:text-lg",
             light ? "text-white/75" : "text-ink-soft",
           )}
         >

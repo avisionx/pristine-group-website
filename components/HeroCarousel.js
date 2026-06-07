@@ -38,7 +38,7 @@ export default function HeroCarousel({ lang, dict }) {
             <img
               src={`/cover/${slides[index]}.jpg`}
               alt=""
-              className="h-full w-full origin-center object-cover animate-kenburns"
+              className="animate-kenburns h-full w-full origin-center object-cover"
               fetchPriority={index === 0 ? "high" : "auto"}
             />
           </picture>
@@ -51,7 +51,7 @@ export default function HeroCarousel({ lang, dict }) {
 
       {/* Established label — true vertical text so its box stays a narrow left gutter
           and never overlaps the headline at any width (desktop only). */}
-      <span className="absolute left-5 top-1/2 hidden -translate-y-1/2 rotate-180 whitespace-nowrap kicker text-white [writing-mode:vertical-rl] lg:block">
+      <span className="kicker absolute top-1/2 left-5 hidden -translate-y-1/2 rotate-180 whitespace-nowrap text-white [writing-mode:vertical-rl] lg:block">
         Est. {FOUNDED_YEAR} — {years} Years
       </span>
 
@@ -67,11 +67,11 @@ export default function HeroCarousel({ lang, dict }) {
             <span className="h-px w-8 bg-white/50" />
             {dict.hero.kicker}
           </span>
-          <h1 className="mt-6 font-display text-[3.4rem] font-medium leading-[1.0] text-white [text-shadow:0_2px_28px_rgba(0,0,0,0.5)] sm:text-7xl lg:text-[6.2rem]">
+          <h1 className="mt-6 font-display text-[3.4rem] leading-[1.0] font-medium text-white [text-shadow:0_2px_28px_rgba(0,0,0,0.5)] sm:text-7xl lg:text-[6.2rem]">
             {dict.hero.titleLine1}
-            <span className="pt-3 block italic text-gradient-hero">{dict.hero.titleLine2}</span>
+            <span className="text-gradient-hero block pt-3 italic">{dict.hero.titleLine2}</span>
           </h1>
-          <p className="mt-7 max-w-xl text-pretty text-base leading-relaxed text-white/80 sm:text-lg">
+          <p className="mt-7 max-w-xl text-base leading-relaxed text-pretty text-white/80 sm:text-lg">
             {dict.hero.subtitle}
           </p>
           <div className="mt-9 flex flex-wrap items-center gap-4">
@@ -95,14 +95,14 @@ export default function HeroCarousel({ lang, dict }) {
       </div>
 
       {/* Slide indicators (right, desktop) */}
-      <div className="absolute right-8 top-1/2 z-10 hidden -translate-y-1/2 flex-col gap-3 lg:flex">
+      <div className="absolute top-1/2 right-8 z-10 hidden -translate-y-1/2 flex-col gap-3 lg:flex">
         {slides.map((s, i) => (
           <button
             key={s}
             type="button"
             onClick={() => go(i)}
             aria-label={`Go to slide ${s}`}
-            className="group flex items-center gap-3 cursor-pointer"
+            className="group flex cursor-pointer items-center gap-3"
           >
             <span
               className={`text-xs tabular-nums transition-colors ${
@@ -113,7 +113,7 @@ export default function HeroCarousel({ lang, dict }) {
             </span>
             <span
               className={`block h-px transition-all duration-500 ${
-                i === index ? "w-8 bg-gradient-brand" : "w-4 bg-white/75 group-hover:w-6"
+                i === index ? "bg-gradient-brand w-8" : "w-4 bg-white/75 group-hover:w-6"
               }`}
             />
           </button>

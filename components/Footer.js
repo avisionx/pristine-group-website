@@ -6,7 +6,7 @@ import LogoLockup from "./LogoLockup";
 
 export default function Footer({ lang, dict, projects, year }) {
   return (
-    <footer className="relative bg-ink text-cream/80 mt-8">
+    <footer className="relative mt-8 bg-ink text-cream/80">
       {/* Skyline silhouette horizon — sits on the cream page and dips into the
           dark footer below. `multiply` removes the asset's white backdrop. */}
       <div className="bg-cream" aria-hidden>
@@ -22,7 +22,7 @@ export default function Footer({ lang, dict, projects, year }) {
         />
       </div>
 
-      <div className="mx-auto max-w-7xl px-5 pb-12 pt-6 sm:px-8">
+      <div className="mx-auto max-w-7xl px-5 pt-6 pb-12 sm:px-8">
         <div className="grid gap-12 lg:grid-cols-12">
           {/* Brand */}
           <div className="lg:col-span-4">
@@ -136,7 +136,7 @@ export default function Footer({ lang, dict, projects, year }) {
 function FooterHeading({ children }) {
   return (
     <div>
-      <h3 className="text-sm font-semibold tracking-wider uppercase text-white/90">
+      <h3 className="text-sm font-semibold tracking-wider text-white/90 uppercase">
         {children}
       </h3>
       {/* Hairline sits on its own line beneath the heading (block-level break

@@ -47,7 +47,7 @@ export default function Gallery({ images = [], label }) {
             key={src}
             type="button"
             onClick={() => show(i)}
-            className="group relative block w-full break-inside-avoid overflow-hidden rounded-xl bg-cream-deep cursor-pointer"
+            className="group relative block w-full cursor-pointer break-inside-avoid overflow-hidden rounded-xl bg-cream-deep"
             aria-label={`Open image ${i + 1}`}
           >
             <img
@@ -79,7 +79,7 @@ export default function Gallery({ images = [], label }) {
               type="button"
               onClick={close}
               aria-label="Close"
-              className="absolute right-5 top-5 grid h-11 w-11 place-items-center rounded-full text-white/80 transition-colors hover:bg-white/10 hover:text-white"
+              className="absolute top-5 right-5 grid h-11 w-11 place-items-center rounded-full text-white/80 transition-colors hover:bg-white/10 hover:text-white"
             >
               <X className="h-6 w-6" />
             </button>
@@ -93,7 +93,7 @@ export default function Gallery({ images = [], label }) {
                     prev();
                   }}
                   aria-label="Previous"
-                  className="absolute left-3 top-1/2 grid h-12 w-12 -translate-y-1/2 place-items-center rounded-full text-white/70 transition-colors hover:bg-white/10 hover:text-white sm:left-6"
+                  className="absolute top-1/2 left-3 grid h-12 w-12 -translate-y-1/2 place-items-center rounded-full text-white/70 transition-colors hover:bg-white/10 hover:text-white sm:left-6"
                 >
                   <ChevronLeft className="h-7 w-7" />
                 </button>
@@ -104,7 +104,7 @@ export default function Gallery({ images = [], label }) {
                     next();
                   }}
                   aria-label="Next"
-                  className="absolute right-3 top-1/2 grid h-12 w-12 -translate-y-1/2 place-items-center rounded-full text-white/70 transition-colors hover:bg-white/10 hover:text-white sm:right-6"
+                  className="absolute top-1/2 right-3 grid h-12 w-12 -translate-y-1/2 place-items-center rounded-full text-white/70 transition-colors hover:bg-white/10 hover:text-white sm:right-6"
                 >
                   <ChevronRight className="h-7 w-7" />
                 </button>
@@ -122,7 +122,7 @@ export default function Gallery({ images = [], label }) {
               className="max-h-[85vh] max-w-[92vw] rounded-lg object-contain shadow-[var(--shadow-lift)]"
             />
 
-            <span className="absolute bottom-6 left-1/2 -translate-x-1/2 text-sm tabular-nums text-white/70">
+            <span className="absolute bottom-6 left-1/2 -translate-x-1/2 text-sm text-white/70 tabular-nums">
               {String(active + 1).padStart(2, "0")} / {String(images.length).padStart(2, "0")}
             </span>
           </motion.div>

@@ -12,7 +12,6 @@ export default function RootRedirect() {
   const target = `/${i18n.defaultLocale}/`;
   return (
     <>
-      {/* eslint-disable-next-line @next/next/no-head-element */}
       <meta httpEquiv="refresh" content={`0; url=${target}`} />
       <script
         dangerouslySetInnerHTML={{
